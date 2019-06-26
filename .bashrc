@@ -14,5 +14,4 @@ alias clip='xclip -sel clip'
 alias colors='for code in {0..255}; do echo -e "\e[38;05;${code}m $code: test"; done'
 
 # tmux bash completion
-curl "https://raw.githubusercontent.com/imomaliev/tmux-bash-completion/master/completions/tmux" > ~/.tmux-completion.sh
 source ~/.tmux-completion.sh
