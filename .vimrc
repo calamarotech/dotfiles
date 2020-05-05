@@ -1,4 +1,4 @@
-set cursorline
+syntax on
 set background=dark
 
 nnoremap <space> za
